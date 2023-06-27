@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes
+       ou simplesmente aumente e diminua o tamanho do seu navegador. 
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/hulk.mp3.mp3" type="audio/mpeg">
+        <source src="midia/hulk.mp3.ogg" type="audio/ogg">
+        <source src="midia/hulk.mp3.wav" type="">
+
+    </audio>    
+     
+</body>
+</html>
